@@ -1,0 +1,28 @@
+{
+  "name": "@natahouse/eslint-config",
+  "version": "0.0.2",
+  "description": "Base Natahouse's JS ESLint config, following our styleguide",
+  "main": ".eslintrc.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natahouse/config-eslint.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "natahouse",
+    "javascript",
+    "styleguide"
+  ],
+  "author": "Natahouse <@natahouse>",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/natahouse/config-eslint/issues"
+  },
+  "homepage": "https://github.com/natahouse/config-eslint#readme",
+  "dependencies": {
+    "eslint-config-airbnb-base": "13.1.0",
+    "eslint-plugin-import": "^2.17.2"
+  }
+}
