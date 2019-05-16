@@ -14,6 +14,9 @@
     "javascript",
     "styleguide"
   ],
+  "scripts": {
+    "lint": "node_modules/.bin/eslint test.js"
+  },
   "author": "Natahouse <@natahouse>",
   "license": "MIT",
   "private": false,
@@ -22,7 +25,9 @@
   },
   "homepage": "https://github.com/natahouse/config-eslint#readme",
   "dependencies": {
+    "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "13.1.0",
-    "eslint-plugin-import": "^2.17.2"
+    "eslint-plugin-import": "^2.17.2",
+    "babel-eslint": "^10.0.1"
   }
 }

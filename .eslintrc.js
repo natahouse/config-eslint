@@ -1,5 +1,6 @@
 module.exports = {
   extends: ['airbnb-base'],
+  parser: "babel-eslint",
   rules: {
     semi: [2, 'never'],
     'no-multiple-empty-lines': ['error', { 'max': 1 }],
@@ -11,14 +12,14 @@ module.exports = {
         objects: 'always-multiline',
         imports: 'always-multiline',
         exports: 'always-multiline',
-        functions: 'always-multiline',
+        functions: 'never',
       },
     ],
     'function-paren-newline': ['error', 'multiline'],
     'max-len': [
       'error',
       {
-        code: 80,
+        code: 90,
         tabWidth: 2,
         ignoreComments: true,
         ignoreTrailingComments: true,
