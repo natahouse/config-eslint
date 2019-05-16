@@ -12,14 +12,14 @@ module.exports = {
         objects: 'always-multiline',
         imports: 'always-multiline',
         exports: 'always-multiline',
-        functions: 'always-multiline',
+        functions: 'never',
       },
     ],
     'function-paren-newline': ['error', 'multiline'],
     'max-len': [
       'error',
       {
-        code: 80,
+        code: 90,
         tabWidth: 2,
         ignoreComments: true,
         ignoreTrailingComments: true,
