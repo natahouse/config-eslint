@@ -4,7 +4,7 @@
 
 Nosso style guide é baseado no [Airbnb's](https://github.com/airbnb/javascript). Com algumas alterações.
 
-## Instalando
+## Instalando...
 
 ```shell
 $ yarn add @natahouse/eslint-config
