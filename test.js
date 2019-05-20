@@ -7,17 +7,17 @@ const array2 = [
   2,
   3,
 ]
-const nata = 'house'
+const nata = "house"
 
 function name() {
-  return ''
+  return ""
 }
 
 export default () => {
   const obj = {
     x,
     y: 20,
-    z: 'teste',
+    z: "teste",
     nata,
     name,
     array,
@@ -26,3 +26,6 @@ export default () => {
 
   return (obj)
 }
+
+const y = `asd + ${x}`
+

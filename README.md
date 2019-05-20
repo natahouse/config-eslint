@@ -157,6 +157,68 @@ const a = 'hello nata.house'
 console.log(a)
 ```
 
+### Aspas duplas ao redor de strings
+
+Apenas para seguir o padrão adotado pelo typescript e para minimizar a confusão com `` que é usado para concatenar strings com variáveis.
+
+Errado:
+```js
+const a = 'hello nata.house'
+```
+
+Certo:
+```js
+const a = "hello nata.house"
+```
+
+### Usar template string ao invés de +
+
+Melhora a leitura do código
+
+Errado:
+```js
+const name = "nata.house"
+const a = "hello" + name
+```
+
+Certo:
+```js
+const name = "nata.house"
+const a = `hello ${nata.house}`
+```
+
+### Usar Number() ao invés de + para converter string para number
+
+Melhora a leitura do código
+
+Errado:
+```js
+const value = "65"
+const a = 15 + ~value
+```
+
+Certo:
+```js
+const value = "65"
+const a = 15 + Number(value)
+```
+
+### Usar String() ao invés de + "" para converter number para string
+
+Melhora a leitura do código
+
+Errado:
+```js
+const value = 1
+const a = value + ""
+```
+
+Certo:
+```js
+const value = 1
+const a = String(value)
+```
+
 ## Contribuindo
 
 Sinta-se a vontade para abrir uma PR

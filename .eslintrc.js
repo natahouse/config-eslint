@@ -29,5 +29,8 @@ module.exports = {
         ignoreRegExpLiterals: true,
       },
     ],
+    'no-template-curly-in-string': 2,
+    'quotes': ['error', 'double'],
+    'prefer-template': 2
   },
 }
